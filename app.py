@@ -52,7 +52,7 @@ class UserSchema(ma.Schema):
 user_schema = UserSchema()
 multiple_user_schema = UserSchema(many=True)
 
-# Food Endpoints
+# Image Endpoints
 
 @app.route("/image/add", methods=["POST"])
 def add_images():
